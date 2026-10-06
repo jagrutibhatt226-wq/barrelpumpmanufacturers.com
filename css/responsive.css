@@ -1,0 +1,346 @@
+
+  /* =========================================================
+      TABLET
+      ========================================================= */
+
+  @media (max-width: 1000px) {
+
+      .hero-grid {
+          grid-template-columns: 1fr;
+
+          gap: 40px;
+      }
+
+      .hero-card {
+          max-width: 750px;
+
+          margin: 0 auto;
+
+          width: 100%;
+      }
+
+      .product-grid {
+          grid-template-columns:
+              repeat(2, minmax(0,1fr));
+      }
+
+      .types-grid {
+          grid-template-columns:
+              repeat(2, minmax(0,1fr));
+      }
+
+      .applications-grid {
+          grid-template-columns:
+              repeat(2, minmax(0,1fr));
+      }
+
+      .why-grid {
+          grid-template-columns:
+              repeat(2, minmax(0,1fr));
+      }
+
+      .manufacturer-points {
+          grid-template-columns:
+              repeat(2, minmax(0,1fr));
+      }
+
+      .seo-intro-grid {
+          grid-template-columns: 1fr;
+      }
+
+  }
+
+
+  /* =========================================================
+      MOBILE NAV
+      ========================================================= */
+
+  @media (max-width: 800px) {
+
+      .nav {
+          min-height: 70px;
+      }
+
+      .menu-btn {
+          display: flex;
+
+          align-items: center;
+          justify-content: center;
+      }
+
+      .nav-links {
+          position: absolute;
+
+          left: 20px;
+          right: 20px;
+          top: calc(100% + 8px);
+
+          display: none;
+          flex-direction: column;
+
+          align-items: stretch;
+
+          padding: 15px;
+
+          border: 1px solid var(--gray-border);
+
+          border-radius: 10px;
+
+          background: var(--white);
+
+          box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      }
+
+      .nav-links.active {
+          display: flex;
+      }
+
+      .nav-links > a:not(.btn) {
+          padding: 13px;
+
+          border-bottom: 1px solid #EEEEEE;
+      }
+
+      .nav-links > a:not(.btn)::after {
+          display: none;
+      }
+
+      .nav-links .btn {
+          margin-top: 5px;
+      }
+
+      .stats-grid {
+          grid-template-columns:
+              repeat(2,1fr);
+      }
+
+      .stat:nth-child(2) {
+          border-right: none;
+      }
+
+      .stat {
+          border-bottom: 1px solid rgba(255,255,255,0.10);
+      }
+
+  }
+
+
+  /* =========================================================
+      MOBILE
+      ========================================================= */
+
+  @media (max-width: 650px) {
+
+      .container {
+          width: min(100% - 28px, 1200px);
+      }
+
+      .hero {
+          padding: 60px 0;
+      }
+
+      .hero h1 {
+          font-size: 42px;
+      }
+
+      .hero p {
+          font-size: 15px;
+      }
+
+      .hero-card {
+          padding: 12px;
+      }
+
+      .hero-card img {
+          height: 250px;
+      }
+
+      .hero-actions {
+          flex-direction: column;
+      }
+
+      .hero-actions .btn {
+          width: 100%;
+      }
+
+      .section-padding,
+      .seo-intro,
+      .products,
+      .manufacturer,
+      .types,
+      .applications,
+      .selection,
+      .why-us,
+      .faq {
+          padding: 60px 0;
+      }
+
+      .product-grid {
+          grid-template-columns: 1fr;
+      }
+
+      .types-grid {
+          grid-template-columns: 1fr;
+      }
+
+      .applications-grid {
+          grid-template-columns: 1fr;
+      }
+
+      .why-grid {
+          grid-template-columns: 1fr;
+      }
+
+      .manufacturer-points {
+          grid-template-columns: 1fr;
+      }
+
+      .manufacturer-box {
+          padding: 28px 22px;
+      }
+
+      .manufacturer-box h2 {
+          font-size: 28px;
+      }
+
+      .product-image {
+          min-height: 230px;
+      }
+
+      .product-image img {
+          height: 200px;
+      }
+
+      .product-body {
+          padding: 22px;
+      }
+
+      .product-body > p {
+          min-height: auto;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-company {
+        grid-column: auto;
+    }
+
+  }
+
+
+  /* =========================================================
+      SMALL MOBILE
+      ========================================================= */
+
+  @media (max-width: 420px) {
+
+      .logo {
+          font-size: 23px;
+      }
+
+      .logo span {
+          font-size: 7px;
+          letter-spacing: 2px;
+      }
+
+      .hero h1 {
+          font-size: 35px;
+      }
+
+      .eyebrow {
+          font-size: 10px;
+      }
+
+      .stats-grid {
+          grid-template-columns: 1fr;
+      }
+
+      .stat {
+          border-right: none;
+      }
+
+      .product-image {
+          min-height: 210px;
+      }
+
+      .product-image img {
+          height: 180px;
+      }
+
+      .specs > div {
+          grid-template-columns:
+              78px minmax(0,1fr);
+
+          font-size: 12px;
+      }
+
+      .seo-highlight {
+          padding: 22px;
+      }
+
+  }
+
+
+  /* =========================================================
+      REDUCED MOTION
+      ========================================================= */
+
+  @media (prefers-reduced-motion: reduce) {
+
+      html {
+          scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+      }
+
+      .reveal {
+          opacity: 1;
+          transform: none;
+      }
+
+  }
+
+
+/* Laptop */
+@media (max-width: 1199px) {
+    .site-logo-img {
+        width: 215px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .site-logo-img {
+        width: 200px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .site-logo-img {
+        width: 180px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .site-logo-img {
+        width: 160px;
+    }
+}
+
+/* Very Small Mobile */
+@media (max-width: 360px) {
+    .site-logo-img {
+        width: 145px;
+    }
+}
