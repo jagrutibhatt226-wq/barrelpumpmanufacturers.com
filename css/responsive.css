@@ -4,7 +4,9 @@
       ========================================================= */
 
   @media (max-width: 1000px) {
-
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    }    
       .hero-grid {
           grid-template-columns: 1fr;
 
@@ -56,7 +58,9 @@
       ========================================================= */
 
   @media (max-width: 800px) {
-
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
       .nav {
           min-height: 70px;
       }
@@ -130,7 +134,9 @@
       ========================================================= */
 
   @media (max-width: 650px) {
-
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
       .container {
           width: min(100% - 28px, 1200px);
       }
@@ -236,7 +242,9 @@
       ========================================================= */
 
   @media (max-width: 420px) {
-
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
       .logo {
           font-size: 23px;
       }
@@ -312,6 +320,9 @@
 
 /* Laptop */
 @media (max-width: 1199px) {
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
     .site-logo-img {
         width: 215px;
     }
@@ -319,6 +330,9 @@
 
 /* Tablet */
 @media (max-width: 991px) {
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
     .site-logo-img {
         width: 200px;
     }
@@ -326,6 +340,9 @@
 
 /* Mobile */
 @media (max-width: 767px) {
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
     .site-logo-img {
         width: 180px;
     }
@@ -333,6 +350,9 @@
 
 /* Small Mobile */
 @media (max-width: 480px) {
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
     .site-logo-img {
         width: 160px;
     }
@@ -340,6 +360,9 @@
 
 /* Very Small Mobile */
 @media (max-width: 360px) {
+    .site-footer {
+        padding: 0px 9px 0px 9px;
+    } 
     .site-logo-img {
         width: 145px;
     }
