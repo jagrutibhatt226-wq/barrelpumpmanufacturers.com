@@ -2303,6 +2303,7 @@ button.owl-next:hover .right-icon {
 }
 
 .product-detail-page .product-hero-image img {
+    border-radius: 20px;
     position: relative;
     z-index: 1;
     width: 100%;
