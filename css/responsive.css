@@ -367,3 +367,193 @@
         width: 145px;
     }
 }
+
+@media (max-width: 575px) {
+    #products-slider .item {
+        padding: 7px;
+    }
+
+    #products-slider .product-card {
+        min-height: 245px;
+    }
+
+    #products-slider .image-area {
+        height: 155px;
+        padding: 20px 12px 8px;
+    }
+
+    #products-slider .image-area img {
+        height: 125px;
+    }
+
+    #products-slider .content {
+        min-height: 78px;
+        padding: 12px 9px;
+    }
+
+    #products-slider .content h5 {
+        font-size: 13px;
+    }
+}
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .footer-logo img {
+        width: 160px;
+    }
+
+    .footer-social a {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer-social img {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .footer-main {
+        padding: 40px 0 30px;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-description,
+    .footer-products a,
+    .contact-item p {
+        font-size: 13px;
+    }
+
+    .footer-logo img {
+        width: 175px;
+    }
+
+    .footer-social {
+        gap: 7px;
+    }
+
+    .footer-social a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-contact-btn {
+        width: 100%;
+    }
+
+    .footer-bg-logo {
+        width: 280px;
+        right: -80px;
+    }
+
+}
+/* =========================================================
+   LARGE LAPTOP
+========================================================= */
+
+@media (max-width: 1199px) {
+
+    .footer-grid {
+        grid-template-columns:
+            1.2fr
+            1fr
+            1.2fr;
+
+        gap: 40px;
+    }
+
+    .footer-map {
+        grid-column: span 3;
+    }
+
+    .footer-map-image {
+        max-width: 500px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+
+    .footer-main {
+        padding: 55px 0 45px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 40px 30px;
+    }
+
+    .footer-map {
+        grid-column: span 2;
+    }
+
+    .footer-map-image {
+        max-width: 450px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .footer-main {
+        padding: 45px 0 35px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+
+        gap: 38px;
+    }
+
+    .footer-map {
+        grid-column: auto;
+    }
+
+    .footer-description {
+        max-width: 100%;
+    }
+
+    .footer-logo img {
+        width: 190px;
+    }
+
+    .footer-bottom-inner {
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 8px;
+    }
+
+    .footer-bottom p:last-child {
+        text-align: center;
+    }
+
+}
+
