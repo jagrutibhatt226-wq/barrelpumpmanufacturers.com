@@ -3476,3 +3476,39 @@ button.owl-next:hover .right-icon {
         transition-duration: .01ms !important;
     }
 }
+.privacy-policy-section { padding: 70px 0 85px; background: #f7f7f7; }
+.privacy-policy-content { max-width: 1000px; margin: 0 auto; padding: 48px 54px; background: #fff; border: 1px solid #ddd; border-top: 5px solid #8B1E2D; border-radius: 12px; box-shadow: 0 10px 35px rgba(0,0,0,.07); }
+.privacy-policy-content h1 { margin: 0 0 8px; color: #292929; font-size: clamp(30px, 4vw, 42px); line-height: 1.2; font-weight: 900; }
+.privacy-policy-content .privacy-effective { margin-bottom: 28px; color: #666; }
+.privacy-policy-content p { margin: 0 0 16px; color: #666; font-size: 15px; line-height: 1.85; }
+.privacy-policy-content h2 { margin: 34px 0 13px; padding-bottom: 9px; border-bottom: 1px solid #eee; color: #8B1E2D; font-size: 23px; line-height: 1.35; }
+.privacy-policy-content h3 { margin: 24px 0 10px; color: #292929; font-size: 18px; }
+.privacy-policy-content ul { margin: 0 0 20px; padding-left: 25px; }
+.privacy-policy-content li { margin: 0 0 8px; padding-left: 4px; color: #666; font-size: 15px; line-height: 1.75; }
+.privacy-policy-content li::marker { color: #8B1E2D; }
+.privacy-contact { margin-top: 18px; padding: 25px; background: #f3f3f3; border-left: 4px solid #8B1E2D; border-radius: 8px; }
+.privacy-contact h3 { margin-top: 0; }
+.privacy-contact a { color: #8B1E2D; overflow-wrap: anywhere; }
+.privacy-contact a:hover { color: #681521; text-decoration: underline; }
+@media (max-width: 650px) { .privacy-policy-section { padding: 35px 0 50px; } .privacy-policy-content { padding: 28px 20px; } .privacy-policy-content h2 { font-size: 20px; margin-top: 28px; } .privacy-policy-content p, .privacy-policy-content li { font-size: 14px; } }
+.warranty-policy-section { padding: 70px 0 85px; background: #f7f7f7; }
+.warranty-policy-content { max-width: 1000px; margin: 0 auto; padding: 48px 54px; background: #fff; border: 1px solid #ddd; border-top: 5px solid #8B1E2D; border-radius: 12px; box-shadow: 0 10px 35px rgba(0,0,0,.07); }
+.warranty-policy-content h1 { margin: 0 0 18px; color: #292929; font-size: clamp(30px, 4vw, 42px); line-height: 1.2; font-weight: 900; }
+.warranty-policy-content .warranty-company { margin: 0 0 22px; padding: 20px 22px; background: #f3f3f3; border-left: 4px solid #8B1E2D; border-radius: 8px; }
+.warranty-policy-content .warranty-company h3 { margin: 0 0 7px; color: #292929; }
+.warranty-policy-content .warranty-company p { margin: 0; }
+.warranty-policy-content p { margin: 0 0 16px; color: #666; font-size: 15px; line-height: 1.85; }
+.warranty-policy-content h2 { margin: 34px 0 13px; padding-bottom: 9px; border-bottom: 1px solid #eee; color: #8B1E2D; font-size: 23px; line-height: 1.35; }
+.warranty-policy-content h3 { margin: 24px 0 10px; color: #292929; font-size: 18px; }
+.warranty-policy-content ul { margin: 0 0 20px; padding-left: 25px; }
+.warranty-policy-content li { margin: 0 0 8px; padding-left: 4px; color: #666; font-size: 15px; line-height: 1.75; }
+.warranty-policy-content li::marker { color: #8B1E2D; }
+.warranty-policy-content .warranty-highlight { margin: 10px 0 20px; padding: 20px 24px; background: #f8ecee; border-left: 4px solid #8B1E2D; border-radius: 8px; color: #681521; line-height: 1.7; }
+.warranty-policy-content .warranty-decision { margin: 12px 0 20px; padding: 16px 20px; background: #f3f3f3; border-radius: 8px; }
+.warranty-policy-content .warranty-decision p { margin-bottom: 5px; }
+.warranty-policy-content .warranty-contact { margin-top: 28px; padding: 25px; background: #f3f3f3; border-left: 4px solid #8B1E2D; border-radius: 8px; }
+.warranty-policy-content .warranty-contact h2 { margin-top: 0; }
+.warranty-policy-content .warranty-contact a { color: #8B1E2D; overflow-wrap: anywhere; }
+.warranty-policy-content .warranty-contact a:hover { color: #681521; text-decoration: underline; }
+.warranty-policy-content .warranty-footer-note { font-weight: 700; }
+@media (max-width: 650px) { .warranty-policy-section { padding: 35px 0 50px; } .warranty-policy-content { padding: 28px 20px; } .warranty-policy-content h2 { font-size: 20px; margin-top: 28px; } .warranty-policy-content p, .warranty-policy-content li { font-size: 14px; } .warranty-policy-content .warranty-highlight { padding: 16px; } }
